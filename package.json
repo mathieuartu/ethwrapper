@@ -6,10 +6,29 @@
         "format": "prettier ./src --write",
         "lint": "eslint ./src --ext .ts",
         "test": "jest",
+        "ci": "npm run format && npm run lint && npm run test && npm run build",
         "publish:preview": "npm pack --dry-run"
     },
     "files": [
         "dist"
+    ],
+    "description": "Utility class to wrap/unwrap ETH on compatible networks",
+    "author": "Mathieu Artu",
+    "license": "MIT",
+    "homepage": "https://github.com/mathieuartu/ethwrapper",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mathieuartu/ethwrapper.git"
+    },
+    "bugs": {
+        "url": "https://github.com/mathieuartu/ethwrapper/issues"
+    },
+    "keywords": [
+        "ethereum",
+        "wrap",
+        "unwrap",
+        "weth",
+        "ethersjs"
     ],
     "main": "./dist/ethwrapper.umd.js",
     "module": "./dist/ethwrapper.mjs",
