@@ -1,4 +1,4 @@
-# EthWrapper
+# ♻️ EthWrapper
 
 ![Unit tests](https://github.com/mathieuartu/ethwrapper/actions/workflows/unit-test.yml/badge.svg)
 ![Lint](https://github.com/mathieuartu/ethwrapper/actions/workflows/lint.yml/badge.svg)
@@ -6,7 +6,7 @@
 [![npm version](https://img.shields.io/npm/v/ethwrapper/latest.svg)](https://www.npmjs.com/package/ethwrapper/v/latest)
 [![npm bundle size (scoped version)](https://img.shields.io/bundlephobia/minzip/ethwrapper/latest.svg)](https://bundlephobia.com/result?p=ethwrapper@latest)
 
-♻️ A simple utility class that helps wrap and unwrap ETH on compatible networks (Ethereum, Optimism, Arbitrum One...)
+A simple utility class that helps wrap and unwrap ETH on compatible networks (Ethereum, Optimism, Arbitrum One...)
 
 ## Installation
 
