@@ -12,7 +12,7 @@
     "files": [
         "dist"
     ],
-    "description": "Utility class to wrap/unwrap ETH on compatible networks",
+    "description": "♻️ Utility class to wrap/unwrap ETH on compatible networks",
     "author": "Mathieu Artu",
     "license": "MIT",
     "homepage": "https://github.com/mathieuartu/ethwrapper",
