@@ -1,6 +1,6 @@
 {
     "name": "ethwrapper",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "scripts": {
         "build": "tsc && vite build",
         "format": "prettier ./src --write",
